@@ -1,0 +1,67 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2757
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14940\viewh17080\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs32 \cf0 \expnd0\expndtw0\kerning0
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Serif+Pro&display=swap');\
+\
+body, html \{\
+    margin: 0;\
+    padding: 0;\
+    height: 100%;\
+    font-family: 'Source Serif Pro', serif;\
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);\
+    color: #ffffff;\
+    overflow: hidden;\
+\}\
+\
+.container \{\
+    display: flex;\
+    flex-direction: column;\
+    justify-content: center;\
+    align-items: center;\
+    height: 100%;\
+    text-align: center;\
+    position: relative;\
+    z-index: 1;\
+\}\
+\
+h1 \{\
+    font-family: 'Playfair Display', serif;\
+    font-size: 4rem;\
+    margin-bottom: 0.5rem;\
+    letter-spacing: 2px;\
+\}\
+\
+h2 \{\
+    font-size: 1.5rem;\
+    font-weight: 300;\
+    margin-bottom: 2rem;\
+    max-width: 80%;\
+\}\
+\
+.coming-soon \{\
+    font-size: 1.2rem;\
+    border: 2px solid #ffffff;\
+    padding: 10px 20px;\
+    border-radius: 25px;\
+\}\
+\
+.moving-elements \{\
+    position: absolute;\
+    top: 0;\
+    left: 0;\
+    width: 100%;\
+    height: 100%;\
+    z-index: -1;\
+\}\
+\
+.element \{\
+    position: absolute;\
+    background: rgba(255, 255, 255, 0.1);\
+    border-radius: 50%;\
+\}}
